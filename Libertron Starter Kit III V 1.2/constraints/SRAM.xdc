@@ -1,0 +1,35 @@
+# Libertron FPGA Starter Kit 3 V1.2 PIN MAP
+
+# SRAM (IS62WV1288BL-55HLI) 128Kx8bit(128KB) / Access Time¿∫ √÷º“ 55ns / VCCO 3.3 V
+
+set_property -dict {PACKAGE_PIN V2 IOSTANDARD LVCMOS33} [get_ports SRAM_D[0]]
+set_property -dict {PACKAGE_PIN R3 IOSTANDARD LVCMOS33} [get_ports SRAM_D[1]]
+set_property -dict {PACKAGE_PIN R2 IOSTANDARD LVCMOS33} [get_ports SRAM_D[2]]
+set_property -dict {PACKAGE_PIN W2 IOSTANDARD LVCMOS33} [get_ports SRAM_D[3]]
+set_property -dict {PACKAGE_PIN Y2 IOSTANDARD LVCMOS33} [get_ports SRAM_D[4]]
+set_property -dict {PACKAGE_PIN W1 IOSTANDARD LVCMOS33} [get_ports SRAM_D[5]]
+set_property -dict {PACKAGE_PIN Y1 IOSTANDARD LVCMOS33} [get_ports SRAM_D[6]]
+set_property -dict {PACKAGE_PIN U3 IOSTANDARD LVCMOS33} [get_ports SRAM_D[7]]
+
+set_property -dict {PACKAGE_PIN V5 IOSTANDARD LVCMOS33} [get_ports SRAM_A[0]]
+set_property -dict {PACKAGE_PIN R6 IOSTANDARD LVCMOS33} [get_ports SRAM_A[1]]
+set_property -dict {PACKAGE_PIN T6 IOSTANDARD LVCMOS33} [get_ports SRAM_A[2]]
+set_property -dict {PACKAGE_PIN Y6 IOSTANDARD LVCMOS33} [get_ports SRAM_A[3]]
+set_property -dict {PACKAGE_PIN AA6 IOSTANDARD LVCMOS33} [get_ports SRAM_A[4]]
+set_property -dict {PACKAGE_PIN V7 IOSTANDARD LVCMOS33} [get_ports SRAM_A[5]]
+set_property -dict {PACKAGE_PIN W7 IOSTANDARD LVCMOS33} [get_ports SRAM_A[6]]
+set_property -dict {PACKAGE_PIN AB7 IOSTANDARD LVCMOS33} [get_ports SRAM_A[7]]
+set_property -dict {PACKAGE_PIN AB6 IOSTANDARD LVCMOS33} [get_ports SRAM_A[8]]
+set_property -dict {PACKAGE_PIN V9 IOSTANDARD LVCMOS33} [get_ports SRAM_A[9]]
+set_property -dict {PACKAGE_PIN V8 IOSTANDARD LVCMOS33} [get_ports SRAM_A[10]]
+set_property -dict {PACKAGE_PIN AA8 IOSTANDARD LVCMOS33} [get_ports SRAM_A[11]]
+set_property -dict {PACKAGE_PIN AB8 IOSTANDARD LVCMOS33} [get_ports SRAM_A[12]]
+set_property -dict {PACKAGE_PIN Y8 IOSTANDARD LVCMOS33} [get_ports SRAM_A[13]]
+set_property -dict {PACKAGE_PIN Y7 IOSTANDARD LVCMOS33} [get_ports SRAM_A[14]]
+set_property -dict {PACKAGE_PIN W9 IOSTANDARD LVCMOS33} [get_ports SRAM_A[15]]
+set_property -dict {PACKAGE_PIN Y9 IOSTANDARD LVCMOS33} [get_ports SRAM_A[16]]
+
+set_property -dict {PACKAGE_PIN T3 IOSTANDARD LVCMOS33} [get_ports SRAM_CS1_B]
+set_property -dict {PACKAGE_PIN T1 IOSTANDARD LVCMOS33} [get_ports SRAM_CS2]
+set_property -dict {PACKAGE_PIN U1 IOSTANDARD LVCMOS33} [get_ports SRAM_OE_B]
+set_property -dict {PACKAGE_PIN U2 IOSTANDARD LVCMOS33} [get_ports SRAM_WE_B]
