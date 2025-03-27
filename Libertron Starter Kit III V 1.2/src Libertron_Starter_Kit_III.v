@@ -124,7 +124,7 @@ module Libertron_Starter_Kit_III(
     
     `endif
     
-    // SRAM (IS62WV1288BL-55HLI) 128Kx8bit(128KB) / Access TimeÀº ÃÖ¼Ò 55ns
+    // SRAM (IS62WV1288BL-55HLI) 128Kx8bit(128KB) / Access Timeì€ ìµœì†Œ 55ns
     `ifdef SRAM
     
         inout [7:0] SRAM_D,
@@ -138,7 +138,7 @@ module Libertron_Starter_Kit_III(
         
     `endif
     
-    // I2C EEPROM (M24C01) / 1Kbit / 400kHz, 100kHz / Write TimeÀº ÃÖ´ë 5ms
+    // I2C EEPROM (M24C01) / 1Kbit / 400kHz, 100kHz / Write Timeì€ ìµœëŒ€ 5ms
     `ifdef I2C_EEPROM
     
         output MEM_I2C_SCL,
@@ -146,7 +146,7 @@ module Libertron_Starter_Kit_III(
     
     `endif
     
-    // SPI EEPROM (M95010) / 1Kbit / ÃÖ´ë 10MHz / Write TimeÀº ÃÖ´ë 5ms
+    // SPI EEPROM (M95010) / 1Kbit / ìµœëŒ€ 10MHz / Write Timeì€ ìµœëŒ€ 5ms
     `ifdef SPI_EEPROM
     
         output MEM_SPI_CS_B,
