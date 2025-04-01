@@ -202,7 +202,7 @@ module Libertron_Starter_Kit_III(
    `endif
     
     // XADC
-    `ifdef
+    `ifdef XADC
         
         inout [3:0] XADC_GPIO,
         
